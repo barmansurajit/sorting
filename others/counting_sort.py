@@ -9,7 +9,7 @@ def counting_sort(arr):
     if n <= 1:
         return arr
 
-    # determine the size of the count array
+    # determine the max range of the count array
     k = numpy.max(arr)
 
     # initialize the count array
