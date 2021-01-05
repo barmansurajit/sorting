@@ -1,5 +1,5 @@
 from unittest import TestCase
-from others import counting_sort
+from count_based import counting_sort
 
 
 class Test(TestCase):
